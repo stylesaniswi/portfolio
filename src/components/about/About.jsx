@@ -22,27 +22,30 @@ const About = () => {
           <div className="about__cards">
           <article className="about__card">
             <FaAward className='about__icon' />
-            <h5>Experience</h5>
-            <small>3+ Years Working</small>
-          </article>
-          
-          <article className="about__card">
-            <FiUsers className='about__icon' />
-            <h5>Client</h5>
-            <small>3+ Years Working</small>
+            <h5>Awards</h5>
+            <small>Merit Scholarship, VIT -1st year</small><br />
+            <small>Compex Scholor -2020</small>
           </article>
           <article className="about__card">
             <VscFolderLibrary className='about__icon' />
             <h5>Projects</h5>
             <small>5+ Projects</small>
           </article>
+          <article className="about__card">
+            <FiUsers className='about__icon' />
+            <h5>Language</h5>
+            <small>Fluently 4 Language</small>
+          </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem obcaecati nemo, porro, aliquam totam blanditiis doloribus ipsam saepe, illo eum error hic. Quisquam vitae facilis tenetur vero aliquid quaerat magni.
-            
+          Hello! I am <b className='name'>Anish Shrestha</b>, an enthusiastic software developer from Nepal with expertise in design, frontend programming and currently working on backend development. I enjoy creating bizarre things with creative goals and I support both teamwork and simplicity.
+          <br />
+          <small >Computer science and engineering bachelor's degree.<br />
+
+CGPA of 9.22 at Vellore Institute of Technology</small>            
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#experience" className="btn btn-primary">Learn more </a>
         </div>
         </div>
 
