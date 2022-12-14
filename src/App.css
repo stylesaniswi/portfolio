@@ -58,7 +58,7 @@ h1{
 section{
     padding-top:4rem;
     margin-top: 4rem;
-    height: 100vh;
+    height: auto;
 }
 section > h2 ,section > h5{
     color: var(--color-light);

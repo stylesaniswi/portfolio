@@ -5,12 +5,20 @@ import IMG2 from '../../assets/firechat.png'
 import IMG3 from '../../assets/Tutofy.png'
 import IMG4 from '../../assets/yojupr.png'
 import IMG5 from '../../assets/styleography.png'
+import IMG6 from '../../assets/studentry.png'
 
 const Portfolio = () => {
 
   const data =[
     {
       id:1,
+      image: IMG6,
+      title: " Studentry",
+      desc:"Student Web portal which reminds all the events through mails to stay connected with students and know their grievances and complaints.",
+      code:"https://github.com/stylesaniswi/studentry"
+    },
+    {
+      id:2,
       image: IMG1,
       title: " My Portfolio",
       desc:"This is my portfolio Website to show my skills and work",
@@ -19,7 +27,7 @@ const Portfolio = () => {
 
     },
     {
-      id:2,
+      id:3,
       image: IMG2,
       title: " Fire Chat",
       desc:"This is Group Chat Webapp to chat with people with same interest",
@@ -28,7 +36,7 @@ const Portfolio = () => {
 
     },
     {
-      id:3,
+      id:4,
       image: IMG3,
       title: " Tutofy",
       desc:"One stop solution for technical based online courses with ratings and reviews",
@@ -36,7 +44,7 @@ const Portfolio = () => {
 
     },
     {
-      id:4,
+      id:5,
       image: IMG4,
       title: " Yoju Pr",
       desc:"An individual web portfolio where an individual is hired for modeling under given packages",
@@ -44,7 +52,7 @@ const Portfolio = () => {
 
     },
     {
-      id:5,
+      id:6,
       image: IMG5,
       title: " Styleography",
       desc:"A Website for a Photographer to showcase their work and provide services and packages",
@@ -67,8 +75,8 @@ const Portfolio = () => {
           <h3>{title}</h3>
           <p>{desc}</p>
           <div className="portfolio__item-cta">
-          {id !== 4 && id !== 5 ? <a href={code} className="btn">Github</a>: ""}
-          {id !== 3 && id !== 4 ?<a href={live} className="btn btn-primary" target="_blank">Live Demo</a> :""}
+          {id !== 5 && id !== 6 ? <a href={code} className="btn">Github</a>: ""}
+          {id !== 4 && id !== 5 && id!=1 ?<a href={live} className="btn btn-primary" target="_blank">Live Demo</a> :""}
           </div>
         </article>
             )
